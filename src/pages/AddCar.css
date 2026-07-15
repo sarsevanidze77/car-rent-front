@@ -1,0 +1,282 @@
+.addcar-container {
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+    background:#0f172a;
+
+}
+
+
+
+.addcar-form {
+
+
+    width:450px;
+
+
+    background:#1e293b;
+
+
+    padding:35px;
+
+
+    border-radius:20px;
+
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+
+}
+
+
+
+.addcar-form h2 {
+
+
+    text-align:center;
+
+    color:white;
+
+    font-size:28px;
+
+
+}
+
+
+
+
+.addcar-form p {
+
+
+    text-align:center;
+
+    color:#cbd5e1;
+
+
+}
+
+
+
+.addcar-form input,
+.addcar-form textarea {
+
+
+    width:100%;
+
+    box-sizing:border-box;
+
+
+    padding:14px;
+
+
+    background:#0f172a;
+
+
+    color:white;
+
+
+    font-size:15px;
+
+
+    border:1px solid #334155;
+
+
+    border-radius:10px;
+
+
+    outline:none;
+
+
+}
+
+
+
+.addcar-form input::placeholder,
+.addcar-form textarea::placeholder {
+
+    color:#94a3b8;
+
+}
+
+
+
+.addcar-form input:focus,
+.addcar-form textarea:focus {
+
+
+    border-color:#3b82f6;
+
+
+}
+
+
+
+
+
+
+.addcar-form textarea {
+
+
+    min-height:120px;
+
+    resize:none;
+
+
+}
+
+
+
+
+
+
+/* Choose File */
+
+.addcar-form input[type="file"] {
+
+
+    background:#172554;
+
+
+    border:2px dashed #3b82f6;
+
+
+    color:white;
+
+
+    cursor:pointer;
+
+
+}
+
+
+
+
+
+
+.addcar-form input[type="file"]::file-selector-button {
+
+
+    background:#3b82f6;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    padding:10px 15px;
+
+
+    border-radius:8px;
+
+
+    cursor:pointer;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.addcar-form input[type="file"]::file-selector-button:hover {
+
+
+    background:#2563eb;
+
+
+}
+
+
+
+
+
+
+
+/* Preview */
+
+
+.preview {
+
+
+    width:100%;
+
+
+    height:230px;
+
+
+    object-fit:cover;
+
+
+    border-radius:15px;
+
+
+    border:2px solid #3b82f6;
+
+
+}
+
+
+
+
+
+
+
+/* Add Button */
+
+
+.addcar-form button {
+
+
+    padding:14px;
+
+
+    background:#3b82f6;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    border-radius:10px;
+
+
+    cursor:pointer;
+
+
+    font-size:16px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.addcar-form button:hover {
+
+
+    background:#2563eb;
+
+
+}
